@@ -1,0 +1,57 @@
+.container{
+    max-width: 1440px;
+    height: auto;
+    padding: 20px 20px;
+    margin: 0 auto;
+    position: sticky;
+    top: 0;
+    z-index: 80;
+    background-color: white;
+    /* background-color: #3e5959; */
+
+    box-shadow: 0px 14px 5px #FFFFFF;
+}
+.margin{
+/* margin-left: 310px; */
+margin: 0 auto;
+gap: 40px;
+}
+.link{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    font-style: normal;
+    /* identical to box height, or 125% */
+    
+    
+    color: #333333;
+}
+
+.icon{
+    font-size: 40px;
+}
+.gap{
+   gap: 30px;
+}
+.hover:hover{
+    cursor: pointer;
+    color: #3e5959;
+}
+@media screen and (max-width: 995px){
+    .margin{
+        gap: 17px;
+    }
+    .gap{
+        gap: 25px;
+        margin-top: 40px;
+    }
+}
+
+@media screen and (max-width: 992px){
+    .gg{
+        display: none;
+    }
+    .container{
+        border-bottom: 1px solid #000000;
+    }
+}

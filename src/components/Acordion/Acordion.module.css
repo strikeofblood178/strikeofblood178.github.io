@@ -1,0 +1,52 @@
+.container{
+    margin: 0 auto;
+    max-width: 1440px;
+    padding: 40px 20px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+    gap: 60px;
+    /* background-color: aquamarine; */
+}
+.title{
+    font-weight: 700;
+    font-size: 40px;
+    font-style: normal;
+    line-height: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    
+    color: #333333;
+
+}
+
+.text{
+    font-weight: 600;
+    font-size: 30px;
+    font-style: normal;
+    line-height: 37px;
+    
+    color: #333333;
+}
+
+@media screen and (max-width: 842px){
+    .title{
+        font-size: 21px;
+        line-height: 25px;
+        font-weight: 700;
+
+        text-transform: uppercase;
+    }
+    .container{
+        gap: 30px;
+    }
+    .text{
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 20px;
+        font-style: normal;
+    }
+
+}

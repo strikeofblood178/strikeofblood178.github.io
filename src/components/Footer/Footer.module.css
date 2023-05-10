@@ -1,0 +1,121 @@
+.section{
+    max-width: 1440px;
+    height: auto;
+    margin: 0 auto;
+    padding: 60px 40px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    /* background-color: #888888; */
+    gap: 60px;
+}
+.block{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 88px;
+    justify-content: center;
+}
+.logo{
+    height: 148px;
+    width: 261px;
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+}
+.logo_img{
+    max-width: 261px;
+}
+.logo_text{
+    font-weight: 400;
+    font-size: 14px;
+    font-style: normal;
+    line-height: 18px;
+    color: #888888;
+}
+.nav{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.link{
+    font-weight: 600;
+    font-style: normal;
+    /* line-height: 20px; */
+    color: #333333;
+}
+.link:hover{
+    font-size: 18px ;
+    text-decoration: underline;
+}
+.network{
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-direction: column; */
+    gap: 20px;
+    width: 274px;
+    height: 100px;
+}
+.network_link{
+    font-weight: 600;
+    font-size: 30px;
+    font-style: normal;
+    line-height: 34px;
+
+    color: #333333;
+}
+.network_link:hover{
+    text-decoration: underline;
+}
+.network_icon{
+    color: #547147;
+    /* width: 40px; */
+    font-size: 40px;
+}
+.network_icon:hover{
+    cursor: pointer;
+    color: rgb(49, 14, 14);
+    /* background-color: #547147; */
+    /* border-radius: 15px; */
+}
+.questions{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    max-height: 165px;
+    max-width: 419px;
+}
+.questions_title{
+    font-weight: 600;
+    font-size: 30px;
+    font-style: normal;
+    line-height: 34px;
+    color: #333333;
+}
+.questions_text{
+    font-weight: 400;
+    font-size: 16px;
+    font-style: normal;
+    line-height: 20px;
+    color: #333333;
+}
+/* .width{
+    width: 244px;
+} */
+/* .hr{
+    min-width: 300px;
+    border: 1px solid #547147;
+} */
+.hare{
+    min-width: 200px;
+    /* border: 0.5px solid #547147; */
+    background-color: #547147;
+    height: 0.1px;
+}
+
+@media screen and (max-width: 842px){
+    .block{
+        gap: 55px;
+    }
+
+}

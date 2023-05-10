@@ -1,0 +1,37 @@
+.modal{
+    position: fixed;
+    top: 3%;
+    /* left: 50%;
+    margin-left: -200px; */
+    /* max-width: 400px; */
+    min-width: 400px;
+    /* padding: 3rem; */
+    background: #fff;
+    border-radius: 20px;
+    z-index: 100;
+    box-shadow: 0 0 10px -6px rgba(0, 0, 0, 0.5);
+    transform: scale(0);
+    visibility: hidden;
+    transition: 0.3s;
+    margin: 0 20px;
+}
+
+.show{
+    visibility: visible;
+    transform: scale(1);
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+/* попытка выравнить */
+    /* padding: 40%; */
+    /* align-items: center; */
+}
+
+
+@media screen and (max-width: 1047px){
+    .modal{
+        min-width: 0;
+    }
+}

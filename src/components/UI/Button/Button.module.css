@@ -1,0 +1,71 @@
+.btn{
+    display: inline-block;
+    cursor: pointer;
+    background: #547147;
+    border-radius: 40px;
+    color: white;
+    opacity: 0.8;
+    transition: 0.2s;
+
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    font-style: normal;
+    border: inherit;
+}
+.btn:hover{
+    opacity: 1;
+}
+.btn:active{
+    border: 2px solid black;
+    background: white;
+    color: black;
+    transition: 0.2s;
+}
+
+.danger{
+    background: #e74c3c;
+    color: white;
+}
+
+.success{
+    background: #34ad3c;
+    color: white;
+}
+
+.small{
+    padding: 18px 32px;
+}
+
+.big{
+    padding: 16px 136px;
+}
+/* .btn{
+    display: inline-block;
+    margin: 0 0.5rem;
+    cursor: pointer;
+    border: none;
+    background: #ccc;
+    padding: 0.5rem 1.5rem;
+    color: #000;
+    border-radius: 4px;
+    opacity: 0.8;
+    transition: 0.2s;
+}
+.btn:hover{
+    opacity: 1;
+} */
+
+
+@media screen and (max-width: 1047px){
+    .small{
+        padding: 11px 30px;
+        width: 295px;
+    }
+}
+
+@media screen and (max-width: 574px){
+    .big{
+        padding: 11px 60px;
+    }
+}
