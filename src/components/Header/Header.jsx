@@ -19,7 +19,7 @@ const Header = () => {
             <Nav.Link className={cn(styles.link, "fs-4", "text-dark", "text-decoration-underline")} href="#Controls"> <p className={styles.hover}>Каталог</p></Nav.Link>
             <Nav.Link className={cn(styles.link, "fs-4", "text-dark", "text-decoration-underline")} href="#SliderTwo"><p className={styles.hover}>Акции</p></Nav.Link>
             <Nav.Link className={cn(styles.link, "fs-4", "text-dark", "text-decoration-underline")} href="#Footer"><p className={styles.hover}>Контакты</p></Nav.Link>
-            <Nav.Link className={cn(styles.link, "fs-4", "text-dark", "text-decoration-underline")} href="#Footer"><p className={styles.hover}>Контакты</p></Nav.Link>
+
           </Nav>
           <div className={styles.gg}>
           <Nav className={styles.gap}>
