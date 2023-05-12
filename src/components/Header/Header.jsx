@@ -4,6 +4,8 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import styles from './Header.module.css';
+import {SlSocialTwitter} from 'react-icons/sl';
+import {SlSocialVkontakte} from 'react-icons/sl'
 
 const Header = () => {
   return (
@@ -20,10 +22,12 @@ const Header = () => {
           </Nav>
           <div className={styles.gg}>
           <Nav className={styles.gap}>
-            <Nav.Link href="tel:+380441234567">+7 (999) 123-45-67</Nav.Link>
-            <Nav.Link eventKey={2} target="_blank"  href="https://www.youtube.com/watch?v=AtR40o6bi3U" className={cn("icon-twitter", styles.icon, "fs-4", "text-dark")}>
+            <Nav.Link className={styles.links} href="tel:+380441234567">+7 (999) 123-45-67</Nav.Link>
+             <Nav.Link eventKey={2} target="_blank"  href="https://www.youtube.com/watch?v=AtR40o6bi3U" className={cn(styles.icon, "fs-4", "text-dark")}> 
+             <SlSocialTwitter className={styles.icons} />
             </Nav.Link>
-            <Nav.Link eventKey={2}  target="_blank"  href="https://github.com/strikeofblood178/react-ex" className={cn("icon-vk", styles.icon, "fs-4", "text-dark")}>
+            <Nav.Link eventKey={2}  target="_blank"  href="https://github.com/strikeofblood178/react-ex" className={cn(styles.icon, "fs-4", "text-dark")}>
+              <SlSocialVkontakte  className={styles.icons}/>
             </Nav.Link>
           </Nav>
           </div>

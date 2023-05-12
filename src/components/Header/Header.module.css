@@ -28,8 +28,29 @@ gap: 40px;
 }
 
 .icon{
-    font-size: 40px;
+    /* font-size: 40px; */
+    padding: 0;
+    /* position: relative;    */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+.links{
+    margin: auto 0;
+    padding: 0;
+}
+.icons:hover{
+ color: #473f3f;
+}
+
+.icons{
+    /* margin: 0; */
+    /* position: absolute; */
+    color: black;
+    font-size: 24px;
+    top: auto;
+}
+
 .gap{
    gap: 30px;
 }
