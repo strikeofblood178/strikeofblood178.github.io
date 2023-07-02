@@ -645,7 +645,7 @@ const SliderBuilder = () => {
 
 
     const ToBeLogout = () => alert('To be continued');
-
+    let name = 1;
 
 
     // сложение чисел
