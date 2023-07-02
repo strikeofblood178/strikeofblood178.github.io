@@ -1,6 +1,8 @@
 import cn from 'clsx';
 import Button from '../UI/Button/Button';
 import styles from './Footer.module.css';
+import {SlSocialTwitter} from 'react-icons/sl';
+import {SlSocialVkontakte} from 'react-icons/sl';
 
 const Footer = ({vis}) => {
   return (
@@ -21,8 +23,8 @@ const Footer = ({vis}) => {
             </div>
             <div className={styles.network}>
                 <a className={styles.network_link} href="tel:+380441234567">+7 (999) 123-45-67</a>
-                <a target="_blank" href="https://github.com/strikeofblood178/react-ex"><div className={cn(styles.network_icon, 'icon-vk')}></div></a>
-                <a target="_blank" href="https://www.youtube.com/watch?v=AtR40o6bi3U"><div className={cn(styles.network_icon, 'icon-twitter')}></div></a>
+                <a target="_blank" href="https://github.com/strikeofblood178/react-ex"><SlSocialVkontakte className={cn(styles.network_icon)} /></a>
+                <a target="_blank" href="https://www.youtube.com/watch?v=AtR40o6bi3U"><SlSocialTwitter className={cn(styles.network_icon)} /></a>
             </div>
             <div className={styles.questions}>
                 <h1 className={styles.questions_title}>Остались вопросы?</h1>

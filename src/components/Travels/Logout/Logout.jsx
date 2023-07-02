@@ -1,6 +1,7 @@
 import cn from 'clsx';
 import Button from '../../UI/Button/Button';
 import styles from './Logout.module.css';
+import {ImCross} from "react-icons/im";
 
 const Logout = ({can, cont}) => {
   return (
@@ -18,7 +19,7 @@ const Logout = ({can, cont}) => {
         </label>
 
         <Button type="big" click={cont} >Отправить заявку</Button>
-        <div onClick={can} className={cn(styles.cross, 'icon-cross' )}></div>
+        <ImCross onClick={can} className={cn(styles.cross,  )} />
         {/* <Button type="big" click={can} >Закрыть</Button> */}
     </div>
   )

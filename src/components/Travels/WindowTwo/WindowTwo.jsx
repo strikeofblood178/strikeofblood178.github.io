@@ -1,6 +1,7 @@
 import cn from 'clsx';
 import Button from '../../UI/Button/Button';
 import styles from './WindowTwo.module.css';
+import {ImCross} from "react-icons/im";
 
 const WindowTwo = ({prop, add, cancelled, vissible}) => {
   return (
@@ -10,7 +11,7 @@ const WindowTwo = ({prop, add, cancelled, vissible}) => {
        })}
 
        {/* иконка */}
-       <div onClick={cancelled} className={cn(styles.cross, 'icon-cross' )}></div>
+       <ImCross onClick={cancelled} className={cn(styles.cross,  )}/>
 
         <div className={styles.box__one}>
             <div className={styles.image}>
